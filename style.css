@@ -59,3 +59,46 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f2f2f2;
+}
+
+
+article {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+article h3 {
+    color: #0056b3;
+}
+
+article p {
+    font-size: 0.9em;
+    color: #666;
+}
+
+article:last-child {
+    border-bottom: none;
+}
