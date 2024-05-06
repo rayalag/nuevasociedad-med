@@ -4,41 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sociedad Médica de Medicina de Emergencias y Desastres</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Sociedad Médica de Medicina de Emergencias y Desastres</h1>
-        <nav>
-            <ul>
-                <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
-                <li><a href="#eventos">Eventos</a></li>
-                <li><a href="#publicaciones">Publicaciones</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
+        <nav class="navbar">
+            <a href="index.html" onclick="loadContent('inicio')">Inicio</a>
+            <a href="#cronograma" onclick="loadContent('cronograma')">Cronograma de Actividades</a>
+            <a href="#noticias" onclick="loadContent('noticias')">Noticias</a>
         </nav>
     </header>
-    <main>
-        <section id="sobre-nosotros">
-            <h2>Sobre Nosotros</h2>
-            <p>La Sociedad se dedica a promover la excelencia en el campo de la medicina de emergencias y desastres, fomentando la investigación, educación y práctica médica.</p>
+    <main id="content">
+        <section id="inicio">
+            <h1>Bienvenidos a la Sociedad Médica de Medicina de Emergencias y Desastres</h1>
+            <p>Información introductoria sobre la sociedad y sus objetivos.</p>
         </section>
-        <section id="eventos">
-            <h2>Eventos</h2>
-            <p>Descubre nuestros próximos eventos y conferencias sobre los avances y desafíos en la medicina de emergencias y desastres.</p>
-        </section>
-        <section id="publicaciones">
-            <h2>Publicaciones</h2>
-            <p>Accede a nuestras últimas investigaciones y artículos científicos en el campo de la medicina de emergencias y desastres.</p>
-        </section>
-        <section id="contacto">
-            <h2>Contacto</h2>
-            <p>¿Interesado en saber más? Contacta con nosotros a través de nuestro formulario o detalles de contacto.</p>
-        </section>
+        <!-- Las secciones de cronograma y noticias se cargarán dinámicamente aquí -->
     </main>
     <footer>
         <p>© 2024 Sociedad Médica de Medicina de Emergencias y Desastres. Todos los derechos reservados.</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
 
